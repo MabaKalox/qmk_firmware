@@ -3,7 +3,7 @@
     "manufacturer": "K.T.E.C.",
     "maintainer": "Yu He",
     "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "bootloader": "qmk-dfu",
     "usb": {
       "vid": "0x1209",
       "pid": "0x2328",
