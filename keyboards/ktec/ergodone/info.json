@@ -16,8 +16,8 @@
       "nkro": true
     },
     "indicators": {
-      "num_lock": "B5",
-      "caps_lock": "B6",
+      "caps_lock": "B5",
+      "num_lock": "B6",
       "scroll_lock": "B3"
     },
     "community_layouts": ["ergodox"],

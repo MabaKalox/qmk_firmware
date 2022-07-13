@@ -15,10 +15,10 @@
 #endif
 #define LED_BRIGHTNESS_LO 15
 #define LED_BRIGHTNESS_HI 255
-static inline void ergodox_right_led_1_off(void) { setPinOutput(LED_NUM_LOCK_PIN); writePin(LED_NUM_LOCK_PIN, 0); }
-static inline void ergodox_right_led_1_on(void) { setPinOutput(LED_NUM_LOCK_PIN); writePin(LED_NUM_LOCK_PIN, 1); }
-static inline void ergodox_right_led_2_off(void) { setPinOutput(LED_CAPS_LOCK_PIN); writePin(LED_CAPS_LOCK_PIN, 0); }
-static inline void ergodox_right_led_2_on(void) { setPinOutput(LED_CAPS_LOCK_PIN); writePin(LED_CAPS_LOCK_PIN, 1); }
+static inline void ergodox_right_led_1_off(void) { setPinOutput(LED_CAPS_LOCK_PIN); writePin(LED_CAPS_LOCK_PIN, 0); }
+static inline void ergodox_right_led_1_on(void) { setPinOutput(LED_CAPS_LOCK_PIN); writePin(LED_CAPS_LOCK_PIN, 1); }
+static inline void ergodox_right_led_2_off(void) { setPinOutput(LED_NUM_LOCK_PIN); writePin(LED_NUM_LOCK_PIN, 0); }
+static inline void ergodox_right_led_2_on(void) { setPinOutput(LED_NUM_LOCK_PIN); writePin(LED_NUM_LOCK_PIN, 1); }
 static inline void ergodox_right_led_3_off(void) { setPinOutput(LED_SCROLL_LOCK_PIN); writePin(LED_SCROLL_LOCK_PIN, 0); }
 static inline void ergodox_right_led_3_on(void) { setPinOutput(LED_SCROLL_LOCK_PIN); writePin(LED_SCROLL_LOCK_PIN, 1); }
 static inline void ergodox_right_led_on(uint8_t l) {
