@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|  {   |           |  }   |------+------+------+------+------+--------|
  * | LAlt   |   Z  |   X  |   C  |   V  |   B  |  [   |           |  ]   |   N  |   M  |   ,  |   .  |  /   |  Del   |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   | F4 |  Lcmd  |  F5  | Left | Right|                                       | Down |  Up  |  F6  |  F11 |  RAlt  |
+ *   | F4 |  Lcmd  | LSft | Left | Right|                                       | Down |  Up  |  F6  |  F11 |  RAlt  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        | Prev | Next |       | Vol- | Vol+ |
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   KC_GRV,
         KC_LCTL,        KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LALT,        KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   KC_LBRC,
-        KC_F4,        KC_LCMD,        KC_F5,   KC_LEFT,KC_RIGHT,
+        KC_F4,        KC_LCMD,        KC_LSFT,   KC_LEFT,KC_RIGHT,
                                                    KC_MPRV,   KC_MNXT,
                                                               KC_MPLY,
                                                KC_SPC,KC_BSPC,TT(SYMB),
